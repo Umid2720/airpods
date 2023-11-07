@@ -69,3 +69,11 @@
   padding-bottom: 50px;
 }
 
+.header__content-images::before {
+  inset: 0;
+  content: "";
+  z-index: -2;
+  position: absolute;
+  background: linear-gradient(180deg, #cadbeb 0%, rgba(235, 235, 235, 0) 100%);
+}
+
