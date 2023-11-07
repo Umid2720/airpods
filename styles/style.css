@@ -1,0 +1,28 @@
+/* header-top */
+
+.header__top {
+  display: flex;
+  padding-top: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__list {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.menu__link {
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu__btn {
+  color: #fff;
+  font-weight: 700;
+  padding: 15px 58px;
+  line-height: normal;
+  border-radius: 30px;
+  background-color: #000;
+}
