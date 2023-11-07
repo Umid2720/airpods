@@ -20,7 +20,7 @@ time, mark, audio, video {
 }
 
 body {
-    line-height:1;
+    line-height:1.2;
 }
 
 article,aside,details,figcaption,figure,
@@ -86,7 +86,7 @@ hr {
     height:1px;
     margin:1em 0;
     display:block;
-    border-top:1px solid #cccccc;
+    border-top:1px solid #ccc;
 }
 
 input, select {
