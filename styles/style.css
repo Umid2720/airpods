@@ -44,6 +44,24 @@
   position: relative;
 }
 
+.title--s {
+  top: 30px;
+  position: relative;
+}
+
+.title--m {
+  top: 280px;
+  left: -55px;
+  position: relative;
+}
+
+.title--ax {
+  top: 410px;
+  z-index: -1;
+  left: -132px;
+  position: relative;
+}
+
 .header__content-images {
   z-index: 1;
   position: relative;
