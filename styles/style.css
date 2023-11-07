@@ -26,3 +26,28 @@
   border-radius: 30px;
   background-color: #000;
 }
+/* header-content */
+
+.title {
+  font-size: 210px;
+  font-weight: 700;
+  position: absolute;
+  padding-top: 110px;
+}
+
+.title--pod {
+  position: relative;
+}
+
+.title--air {
+  z-index: 2;
+  position: relative;
+}
+
+.header__content-images {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
