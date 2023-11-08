@@ -15,8 +15,8 @@ a {
 button {
   padding: 0;
   border: none;
-  font-size: 16px;
   cursor: pointer;
+  font-size: 16px;
   background-color: transparent;
 }
 body {
