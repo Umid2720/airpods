@@ -79,3 +79,31 @@
 }
 
 /* Main */
+
+.choose-color {
+  text-align: center;
+  padding: 46px 0 180px;
+}
+
+.choose-color__title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.choose-color__text {
+  margin: 0 auto;
+  max-width: 557px;
+  padding: 20px 0 80px;
+}
+
+.choose-color__list {
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.choose-color__btn {
+  padding: 50px 55px;
+  border-radius: 20px;
+  border: 1px solid #777;
+}
