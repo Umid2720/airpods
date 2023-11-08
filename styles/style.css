@@ -140,32 +140,25 @@
 /* Case section */
 
 .case {
-  background: #fafafa;
   text-align: center;
-  padding-top: 80px;
+  padding: 80px 0 100px;
+  background-color: #fafafa;
 }
 
-/* battery section */
-.battery__text {
+.case__text {
   padding: 17px 0 40px;
 }
 
-/* Alive section */
-.alive {
-  padding: 160px 0 98px;
+.energy__title {
+  padding: 160px 0 40px;
 }
 
-.alive__number {
-  padding: 40px 0;
+.energy__number {
   font-size: 210px;
   font-weight: 700;
 }
 
-.alive__text {
+.energy__text {
   max-width: 403px;
-  margin: 0 auto;
+  margin: 40px auto 0;
 }
-
-/*  */
-/*  */
-/*  */
