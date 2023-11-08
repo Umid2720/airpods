@@ -136,3 +136,36 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+/* Case section */
+
+.case {
+  background: #fafafa;
+  text-align: center;
+  padding-top: 80px;
+}
+
+/* battery section */
+.battery__text {
+  padding: 17px 0 40px;
+}
+
+/* Alive section */
+.alive {
+  padding: 160px 0 98px;
+}
+
+.alive__number {
+  padding: 40px 0;
+  font-size: 210px;
+  font-weight: 700;
+}
+
+.alive__text {
+  max-width: 403px;
+  margin: 0 auto;
+}
+
+/*  */
+/*  */
+/*  */
