@@ -30,3 +30,8 @@ body {
   padding: 0 10px;
   max-width: 1220px;
 }
+.main__title {
+  font-size: 64px;
+  font-weight: 700;
+  text-align: center;
+}
