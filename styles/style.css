@@ -80,6 +80,7 @@
 
 /* Main */
 
+/* choose-color section */
 .choose-color {
   text-align: center;
   padding: 46px 0 180px;
@@ -106,4 +107,32 @@
   padding: 50px 55px;
   border-radius: 20px;
   border: 1px solid #777;
+}
+
+/* composition section */
+
+.composition {
+  padding-bottom: 180px;
+}
+
+.composition__text {
+  margin: 0 auto;
+  max-width: 653px;
+  text-align: center;
+  padding: 20px 0 40px;
+}
+
+.composition__inner {
+  gap: 15px;
+  display: flex;
+  margin: 0 auto;
+  max-width: 625px;
+  justify-content: space-between;
+}
+
+.composition__inner-text {
+  display: flex;
+  max-width: 230px;
+  flex-direction: column;
+  justify-content: space-between;
 }
