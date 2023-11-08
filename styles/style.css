@@ -50,12 +50,12 @@
 
 .title--s {
   display: inline-block;
-  transform: translateY(60px);
+  transform: translate(10px, 58px);
 }
 
 .title--m {
   display: inline-block;
-  transform: translate(-57px, 275px);
+  transform: translate(-57px, 282px);
 }
 
 .title--ax {
