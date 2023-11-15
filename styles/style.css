@@ -165,53 +165,38 @@
 
 /* Audio section */
 .audio {
-  position: relative;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url("../images/audio-bg.jpg");
+  background-image: url('../images/audio-full.jpg');
 }
 
-.audio::after {
-  left: 0;
-  right: 0;
-  width: 100%;
-  content: "";
-  height: 150vh;
-  bottom: -210px;
-  position: absolute;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-image: url("../images/sound.png");
-}
 
 .audio__inner {
   display: flex;
-  min-height: 200vh;
+  min-height: 220vh;
   align-items: flex-end;
   justify-content: center;
 }
 
 .audio__box {
+  color: #fff;
   text-align: center;
-  padding-bottom: 34vh;
+  padding-bottom: 30vh;
 }
 
 .audio__text {
-  color: #fff;
   max-width: 296px;
+  margin-bottom: 10px;
 }
 
-.audio__text:nth-child(2) {
+/* .audio__text:nth-child(2) {
   padding: 30px 0;
-}
+} */
 
 .btn {
-  z-index: 2;
-  margin-top: 40px;
+  margin-top: 25px;
   font-weight: 700;
-  position: relative;
   padding: 15px 58px;
   border-radius: 30px;
   background-color: #fff;
