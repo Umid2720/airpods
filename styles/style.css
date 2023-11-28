@@ -168,9 +168,8 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url('../images/audio-full.jpg');
+  background-image: url("../images/audio-full.jpg");
 }
-
 
 .audio__inner {
   display: flex;
@@ -182,17 +181,13 @@
 .audio__box {
   color: #fff;
   text-align: center;
-  padding-bottom: 30vh;
+  padding-bottom: 50vh;
 }
 
 .audio__text {
   max-width: 296px;
   margin-bottom: 10px;
 }
-
-/* .audio__text:nth-child(2) {
-  padding: 30px 0;
-} */
 
 .btn {
   margin-top: 25px;
@@ -202,3 +197,27 @@
   background-color: #fff;
 }
 
+/* Footer section */
+.footer {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  padding: 50px 0 40px;
+  background-color: #000;
+}
+
+.footer__text {
+  padding: 20px 0;
+}
+
+.footer .logo {
+  filter: brightness(0) invert(1);
+}
+
+.footer__list {
+  gap: 0 20px;
+  display: flex;
+  padding-top: 80px;
+  align-items: center;
+  justify-content: center;
+}
